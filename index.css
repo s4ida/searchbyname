@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images5.alphacoders.com/133/1331867.jpeg);
+    width: 100%;
+    background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+h1{
+    font-size: 50px;
+    color:black;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    border: 10px solid black;
+}
+h1 strong{
+    color: white;
+    background-color: black;
+    font-family: 'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#searchinput{
+    width: 400px;
+    height: 60px;
+   font-size: 20px;
+  padding-left: 10px;
+  border: 10px solid black;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-bottom: 20px;
+}
+button{
+    height: 60px;
+    width: 100px;
+    background-color:black;
+    color: white;
+    border: 10px solid white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor:pointer;
+}
+button:hover{
+    height: 60px;
+    width: 100px;
+    background-color:white;
+    color:black;
+    border: 10px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor:pointer;
+}
+
+#mydiv{
+    background-color: white;
+    border: 10px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 500px;
+    height: 600px;
+    margin: 20px 20ppx;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    gap: 15px;
+  
+}
+#mydiv img{
+    width: 250px;
+border-radius: 50%;
+
+}
+#mydiv h2,h5,p{
+    font-style: oblique;
+    font-size: 20px;
+    color: black;
+
+}
